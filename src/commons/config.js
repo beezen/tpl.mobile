@@ -3,15 +3,15 @@
  * @Author: bizhen.dong
  * @Date: 2020-08-08 12:31:45
  * @LastEditors: bizhen.dong
- * @LastEditTime: 2020-08-08 12:48:45
+ * @LastEditTime: 2020-08-22 23:13:57
  */
 // 后端接口
 let definedBaseURL = {
   dev: "mock",
-  // dev: "http://xxx.fat1.xxx.work/api/",
-  fat: "http://xxx.fat1.xxx.work/api",
-  uat: "http://xxx.wdai.com",
-  prd: "https://xxx.xxx.com.cn",
+  // dev: "http://xxx.xxx.com",
+  fat: "http://xxx.xxx.com",
+  uat: "http://xxx.xxx.com",
+  prd: "https://xxx.xxx.com",
 };
 let baseURL = definedBaseURL[__wd_define_env__];
 
